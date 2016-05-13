@@ -5,12 +5,12 @@ sith = 0
 for i in s_lista:
 	lista.append(int(i))
 
-meio = length(lista)/2
+meio = len(lista)/2
 
 for i in range(0, meio):
 	jedi += i
 
-for i in range(meio, length(lista)):
+for i in range(meio, len(lista)):
 	sith += i
 
 if jedi == sith:
