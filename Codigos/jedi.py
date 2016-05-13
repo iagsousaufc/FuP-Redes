@@ -8,10 +8,10 @@ for i in s_lista:
 meio = len(lista)/2
 
 for i in range(0, meio):
-	jedi += i
+	jedi += lista[i]
 
 for i in range(meio, len(lista)):
-	sith += i
+	sith += lista[i]
 
 if jedi == sith:
 	print "empate"
